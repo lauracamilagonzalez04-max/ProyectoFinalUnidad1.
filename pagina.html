@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Catálogo</title>
@@ -10,49 +10,78 @@
 
 <body>
 
+    <!--NAVBAR-->
     <nav class="navbar navbar-dark bg-dark">
             <div class="container">
                 <a href="index.html" class="text-white">Inicio</a>
+                <H4 clas="text-white"> Urban Sneakers</h4>
             </div>
     </nav>
 
+    <!--TITULO-->
+    <div class="container text-center mt-4">
+        <h1>Catalogo</h1>
+    </div>
+
     <!--PRODUCTOS-->
-    <div class="col-md-4">
-        <div class="card p-3 text-center shadow">
-            <img src="imagenes/teni1.jpg" class="img-fluid">
-                <h4 class="mt-3">Nike SB</h4>
-                <p>$85.000</p>
+    <div class="container mt-5">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow">
+            <img src="imagenes/teni1.jpg" class="card-img-top">
+            <div class="card-body text-center">
+                <h5>Nike SB</h5>
                 <button class="btn">Comprar</button>
             </div>
     </div>
+</div>
 
-            <div class="col-md-4">
-                <img src="imagenes/teni2.jpg" class="img-fluid">
-                <h4>Campus</h4>
-                <p>$85.000</p>
+            <div class="col-md-4">   
+                <div class="card shadow">  
+                <img src="imagenes/teni2.jpg" class="card-img-top">
+                <div class="card-body text-center">
+                <h5>Campus</h5>
+                <button class="btn">Comprar</button>
             </div>
-
+        </div>
+    </div>
+            
             <div class="col-md-4">
+                <div class="card shadow">
                 <img src="imagenes/teni3.jpg" class="img-fluid">
+                <div class="card-body text-center">
                 <h4>For One</h4>
-                <p>$65.000</p>
+                <button class="btn">Comprar</button>
             </div>
         </div>
     </div>
 
+</div>
+</div>
+
     <!--TABLA-->
     <div class="container mt-5">
-        <table class="table">
+        <h3 class="text-center">Lista de precios</h3>
+        <table class="table table-striped text-center">
             <tr>
-                <td>Producto</td>
-                <td>Precio</td>
-            </tr>
-            <tr>
-                <td>Nike SB</td>
-                <td>$85.000</td>
-            </tr>
-        </table>
-    </div>
+                <th>Producto</td>
+                <th>Precio</td>
+                </tr>
+                <tr>
+                    <td>Nike SB</td>
+                    <td>$75.000</td>
+                </tr>
+                <tr>
+                    <td>Campus</td>
+                    <td>$85.000</td>
+                    </tr>
+                    <tr>
+                        <td>For One</td>
+                        <td>$65.000</td>
+                    </tr>
+                </table>
+            </div>
 
     <!--FORMULARIO-->
     <div class="container mt-5">
